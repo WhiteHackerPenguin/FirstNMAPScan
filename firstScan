@@ -1,0 +1,8 @@
+┌──(kali㉿kali)-[~]
+└─$ ifconfig 
+
+┌──(kali㉿kali)-[~]
+└─$ sudo nmap -O yourIPleavingthelastnumber.0/24
+
+┌──(kali㉿kali)-[~]
+└─$ sudo nmap -p- -sVC -sC --open -sS -vvv -n -Pn thetargetsmachineIP -oN yourdirectory
